@@ -8,7 +8,7 @@ function App() {
   const { cep } = useApp();
 
   return (
-    <>
+    <div className="app">
       <ToastContainer />
       <Form />
 
@@ -22,7 +22,7 @@ function App() {
           uf={cep.uf}
         />
       )}
-    </>
+    </div>
   );
 }
 

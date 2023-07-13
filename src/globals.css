@@ -14,3 +14,7 @@ body {
   height: 100vh;
   background: linear-gradient(#121212, #212b46);
 }
+
+.app {
+  margin: 0 15px;
+}

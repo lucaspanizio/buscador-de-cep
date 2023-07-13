@@ -11,8 +11,4 @@ export const Container = styled.div`
   border-radius: 8px;
   padding: 15px;
   max-width: 800px;
-
-  @media screen and (max-width: 479px) {
-    width: 310px;
-  }
 `;
