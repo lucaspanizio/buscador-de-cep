@@ -18,10 +18,10 @@ export const ButtonCopy = ({ data_cep }: IButtonCopyProps) => {
         return `${item.description}: ${item.value}`;
       });
 
-    if (window.innerWidth > 480) {
-      navigator.clipboard
-        .writeText(text.join("\n"))
-        .then(() => {
+    navigator.clipboard
+      .writeText(text.join("\n"))
+      .then(() => {
+        if (window.innerWidth > 480) {
           Alert({
             type: "success",
             time: 2000,
@@ -29,17 +29,17 @@ export const ButtonCopy = ({ data_cep }: IButtonCopyProps) => {
             position: "bottom-center",
             hideProgressBar: true,
           });
-        })
-        .catch(() => {
-          Alert({
-            type: "error",
-            time: 2000,
-            text: "Não foi possível copiar o texto para a área de transferência",
-            position: "bottom-center",
-            hideProgressBar: true,
-          });
+        }
+      })
+      .catch(() => {
+        Alert({
+          type: "error",
+          time: 2000,
+          text: "Não foi possível copiar o texto para a área de transferência",
+          position: "bottom-center",
+          hideProgressBar: true,
         });
-    }
+      });
   }
 
   return (
