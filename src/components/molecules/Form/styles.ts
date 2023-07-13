@@ -19,7 +19,7 @@ export const ContainerSearch = styled.div`
   display: flex;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 15px;
-  margin: 15px;
+  margin: 15px 0;
   border-radius: 8px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 `;

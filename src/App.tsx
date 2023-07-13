@@ -10,20 +10,18 @@ function App() {
   return (
     <>
       <ToastContainer />
-      <div className="container">
-        <Form />
+      <Form />
 
-        {cep.cep !== "" && (
-          <ResultCard
-            cep={cep.cep}
-            logradouro={cep.logradouro}
-            complemento={cep.complemento}
-            localidade={cep.localidade}
-            bairro={cep.bairro}
-            uf={cep.uf}
-          />
-        )}
-      </div>
+      {cep.cep !== "" && (
+        <ResultCard
+          cep={cep.cep}
+          logradouro={cep.logradouro}
+          complemento={cep.complemento}
+          localidade={cep.localidade}
+          bairro={cep.bairro}
+          uf={cep.uf}
+        />
+      )}
     </>
   );
 }
