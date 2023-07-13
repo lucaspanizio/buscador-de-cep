@@ -10,7 +10,7 @@ export const Title = styled.h1`
   color: #fff;
   font-size: 2.5rem;
 
-  @media (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     font-size: 2rem;
   }
 `;
@@ -22,10 +22,6 @@ export const ContainerSearch = styled.div`
   margin: 15px;
   border-radius: 8px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
-
-  @media (max-width: 479px) {
-    width: 310px;
-  }
 `;
 
 export const InputSearch = styled.input`
@@ -34,12 +30,13 @@ export const InputSearch = styled.input`
   font-size: 1.5rem;
   color: #fff;
   outline: none;
+  max-width: 310px;
 
   &::placeholder {
     color: #f1f1f1;
   }
 
-  @media (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     font-size: 1.3rem;
   }
 `;
