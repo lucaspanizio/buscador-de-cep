@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   position: relative;
@@ -7,8 +7,8 @@ export const Container = styled.div`
   flex-wrap: wrap;
   word-break: break-word;
   align-items: start;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 8px;
   padding: 15px;
   max-width: 800px;
-`
+`;
