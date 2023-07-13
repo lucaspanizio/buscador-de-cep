@@ -18,26 +18,28 @@ export const ButtonCopy = ({ data_cep }: IButtonCopyProps) => {
         return `${item.description}: ${item.value}`;
       });
 
-    navigator.clipboard
-      .writeText(text.join("\n"))
-      .then(() => {
-        Alert({
-          type: "success",
-          time: 2000,
-          text: "Texto copiado para a área de transferência",
-          position: "bottom-center",
-          hideProgressBar: true,
+    if (window.innerWidth > 480) {
+      navigator.clipboard
+        .writeText(text.join("\n"))
+        .then(() => {
+          Alert({
+            type: "success",
+            time: 2000,
+            text: "Texto copiado para a área de transferência",
+            position: "bottom-center",
+            hideProgressBar: true,
+          });
+        })
+        .catch(() => {
+          Alert({
+            type: "error",
+            time: 2000,
+            text: "Não foi possível copiar o texto para a área de transferência",
+            position: "bottom-center",
+            hideProgressBar: true,
+          });
         });
-      })
-      .catch(() => {
-        Alert({
-          type: "error",
-          time: 2000,
-          text: "Não foi possível copiar o texto para a área de transferência",
-          position: "bottom-center",
-          hideProgressBar: true,
-        });
-      });
+    }
   }
 
   return (
