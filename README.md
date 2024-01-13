@@ -44,9 +44,9 @@ O projeto **Buscador de Cep** foi desenvolvido com base no **[video aula](https:
 ---
 
 ## 🖥️ Demonstração
-[![Buscador de Cep](https://i.ibb.co/0h4Ntch/buscador-de-cep.gif "Clique para acessar o projeto")](https://zip-code-finder-chi.vercel.app/ "Clique para acessar o projeto")  
+[![Buscador de Cep](https://i.ibb.co/0h4Ntch/buscador-de-cep.gif "Clique para acessar o projeto")](https://panizio-zip-code-finder.vercel.app/ "Clique para acessar o projeto")  
 
-Você pode acessar o projeto clicando [aqui](https://zip-code-finder-chi.vercel.app/).
+Você pode acessar o projeto clicando [aqui](https://panizio-zip-code-finder.vercel.app/).
 
 ---
 
