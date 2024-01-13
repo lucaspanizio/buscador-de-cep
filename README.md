@@ -58,7 +58,7 @@ Não há necessidade de executar o projeto, pois você pode visualizá-lo clican
 git clone https://github.com/lucaspanizio/zip-code-finder
 
 # Entre no diretório
-cd buscador-de-cep
+cd zip-code-finder
 
 # Instale as dependências
 npm install
