@@ -44,9 +44,9 @@ O projeto **Buscador de Cep** foi desenvolvido com base no **[video aula](https:
 ---
 
 ## 🖥️ Demonstração
-[![Buscador de Cep](https://i.ibb.co/0h4Ntch/buscador-de-cep.gif "Clique para acessar o projeto")](https://buscador-de-cep-chi.vercel.app/ "Clique para acessar o projeto")  
+[![Buscador de Cep](https://i.ibb.co/0h4Ntch/buscador-de-cep.gif "Clique para acessar o projeto")](https://zip-code-finder-chi.vercel.app/ "Clique para acessar o projeto")  
 
-Você pode acessar o projeto clicando [aqui](https://buscador-de-cep-chi.vercel.app/).
+Você pode acessar o projeto clicando [aqui](https://zip-code-finder-chi.vercel.app/).
 
 ---
 
@@ -55,7 +55,7 @@ Você pode acessar o projeto clicando [aqui](https://buscador-de-cep-chi.vercel.
 Não há necessidade de executar o projeto, pois você pode visualizá-lo clicando no link acima, mas se ainda desejar fazê-lo, siga as instruções abaixo:
 ```bash
 # Clone o repositório
-git clone https://github.com/lucaspanizio/buscador-de-cep
+git clone https://github.com/lucaspanizio/zip-code-finder
 
 # Entre no diretório
 cd buscador-de-cep
@@ -72,7 +72,7 @@ Depois disso, abra o navegador de sua preferência e acesse <a href="http://loca
 
 ## 📝 Licença
 
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/lucaspanizio/buscador-de-cep/blob/master/LICENSE).
+O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/lucaspanizio/zip-code-finder/blob/master/LICENSE).
 
 ---
 **Desenvolvido por [Lucas Panizio](https://github.com/lucaspanizio/).**
